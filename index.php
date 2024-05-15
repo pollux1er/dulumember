@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Bulma Dashboard</title>
+  <title>MyDULU WEAR - Dashboard</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -19,7 +19,7 @@
         <div class="container ">
             <div class="navbar-brand">
                 <a class="navbar-item" href="https://ericmkelley.com">
-                    Put Logo Here 
+                    MyDULU WEAR
                 </a>
                 <div class="navbar-burger burger" data-target="">
                     <span></span>
@@ -41,38 +41,13 @@
             </div>
         </div>
     </nav>
-    <nav class="navbar shadow">
-        <div class="container">
-            <div class="navbar-menu">
-                <div class="navbar-start bottomNav ">
-                    <a class="navbar-item is-active" href="#">
-                        <i class="fa fa-tachometer-alt"></i>&nbsp; Dashboard</a>
-                    <a class="navbar-item" href="#">
-                        <i class="fa fa-list"></i>&nbsp; List</a>
-                    <a class="navbar-item" href="#">
-                        <i class="fa fa-user-alt"></i>
-                        </i>&nbsp; Profile</a>
-                    <a class="navbar-item" href="#">
-                        <i class="fa fa-shopping-cart"></i>
-                        </i>&nbsp; Payment</a>
-                    <a class="navbar-item" href="#">
-                        <i class="fa fa-star"></i>&nbsp; Upgrade</a>
-                    <a class="navbar-item" href="#">
-                        <i class="fa fa-envelope-open"></i>&nbsp; Notification</a>
-                    <a class="navbar-item" href="#">
-                        <i class="fa fa-cog"></i>&nbsp; Settings</a>
-                </div>
-                <div class="navbar-end">
-                    <a class="navbar-item" href="#">
-                        <i class="fa fa-sign-out"></i>&nbsp; Logout</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <?php 
+    include '_includes/menu.php';
+    ?>
     <div class="container">
         <div class="columns">
             <div class="column is-12 main">
-                <span class="heading">Recent Orders</span>
+                <span class="heading">Recentes Commandes</span>
                 <section id="order">
                     <div class="order-body">
                         <article class="media order shadow delivered">
